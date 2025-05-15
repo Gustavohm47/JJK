@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do Zero ao Programador Contratado - Dragol Ball</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/bg-satoro.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/bg-satoro-mobile.png" alt="personagem Satoro">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Satoro Gojo</h2>
+                <p class="descricao">O feiticeiro mais poderoso da atualidade. Possui os Seis Olhos e o Infinito, técnicas herdadas do clã Gojo. Carismático, confiante e protetor com seus alunos, é uma figura central no mundo do Jujutsu.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-choso.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/bg-choso-mobile.png" alt="personagem Choso">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Choso</h2>
+                <p class="descricao">Um dos nove Úteros da Pintura da Morte, mas se considera irmão dos irmãos mortos por Itadori. Apesar de ser uma maldição, mostra emoções humanas profundas e um forte senso de lealdade familiar. Usa a Técnica do Sangue Controlado.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-toji.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/bg-toji-mobile.png" alt="personagem Toji">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Toji Fushiguro</h2>
+                <p class="descricao">Assassino mercenário e pai de Megumi. Ex-membro do clã Zen'in, renunciou à vida de feiticeiro. Não possui energia amaldiçoada, mas tem um corpo altamente aprimorado e usa armas amaldiçoadas com maestria.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-mahito.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/bg-mahito-mobile.png" alt="personagem Mahito">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Mahito</h2>
+                <p class="descricao">Um dos principais antagonistas. Maldição nascida do ódio humano, tem uma aparência jovem e comportamento sádico. Sua técnica, Transformação Ociosa, permite moldar a alma das pessoas com um toque.</p>
+            </div>
+        </div>
+        <div class="personagem">
+            <picture>
+                <source srcset="./src/imagens/bg-kashimo.png" media="(min-width:768px)">
+                <img class="imagem" src="./src/imagens/bg-kashimo-mobile.png" alt="personagem Kashimo">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Hajime Kashimo</h2>
+                <p class="descricao">Feiticeiro da era antiga revivido na Era Moderna. Obcecado por lutar contra os mais fortes, especialmente Sukuna. Usa eletricidade em sua técnica e é incrivelmente poderoso e agressivo em combate.</p>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao satoro selecionado">
+                <img src="./src/imagens/icone-satoro.png" alt="icone Satoro">
+            </button>
+        </li>
+        <li>
+            <button class="botao choso">
+                <img src="./src/imagens/icone-choso.png" alt="icone Choso">
+            </button>
+        </li>
+        <li>
+            <button class="botao toji">
+                <img src="./src/imagens/icone-toji.png" alt="icone Toji">
+            </button>
+        </li>
+        <li>
+            <button class="botao mahito">
+                <img src="./src/imagens/icone-mahito.png" alt="icone Mahito">
+            </button>
+        </li>
+        <li>
+            <button class="botao kashimo">
+                <img src="./src/imagens/icone-kashimo.png" alt="icone Kashimo">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
